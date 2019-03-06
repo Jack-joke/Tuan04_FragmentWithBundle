@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layoutmain"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:background="#ff0"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edt_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type text to send to fragment"/>
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add fragment"
+        android:textSize="30sp"
+
+        android:layout_gravity="center"/>
+
+</LinearLayout>
